@@ -2,86 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/learning-development/r.html</loc>
-    <lastmod>2023-07-02T00:02:15.854Z</lastmod>
+    <lastmod>2023-07-02T00:19:44.174Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/learning-development/learning-support.html</loc>
-    <lastmod>2023-07-02T00:02:13.322Z</lastmod>
+    <lastmod>2023-07-02T00:19:42.254Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/RAP/rap-faq.html</loc>
-    <lastmod>2023-07-02T00:02:05.702Z</lastmod>
+    <lastmod>2023-07-02T00:19:36.414Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/RAP/rap-expectations.html</loc>
-    <lastmod>2023-07-02T00:02:04.010Z</lastmod>
+    <lastmod>2023-07-02T00:19:35.186Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/DRAFT-accessibilit-ees.html</loc>
-    <lastmod>2023-07-02T00:02:02.854Z</lastmod>
+    <lastmod>2023-07-02T00:19:34.302Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/ees.html</loc>
-    <lastmod>2023-07-02T00:02:01.426Z</lastmod>
+    <lastmod>2023-07-02T00:19:33.222Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/dashboards.html</loc>
-    <lastmod>2023-07-02T00:01:57.405Z</lastmod>
+    <lastmod>2023-07-02T00:19:30.170Z</lastmod>
   </url>
   <url>
-    <loc>https://dfe-analytical-services.github.io/statisticians-guide/understanding-users/user-eng.html</loc>
-    <lastmod>2023-07-02T00:01:53.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dfe-analytical-services.github.io/statisticians-guide/index.html</loc>
-    <lastmod>2023-07-02T00:01:52.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dfe-analytical-services.github.io/statisticians-guide/creating-statistics/cd.html</loc>
-    <lastmod>2023-07-02T00:01:42.553Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dfe-analytical-services.github.io/statisticians-guide/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2023-07-02T00:01:39.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dfe-analytical-services.github.io/statisticians-guide/creating-statistics/ud.html</loc>
-    <lastmod>2023-07-02T00:01:50.133Z</lastmod>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/CONTRIBUTING.html</loc>
+    <lastmod>2023-07-02T00:19:27.502Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/understanding-users/user-analytics.html</loc>
-    <lastmod>2023-07-02T00:01:52.621Z</lastmod>
+    <lastmod>2023-07-02T00:19:26.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/creating-statistics/ud.html</loc>
+    <lastmod>2023-07-02T00:19:24.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/CODE_OF_CONDUCT.html</loc>
+    <lastmod>2023-07-02T00:19:15.150Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/creating-statistics/cd.html</loc>
+    <lastmod>2023-07-02T00:19:18.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/index.html</loc>
+    <lastmod>2023-07-02T00:19:25.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dfe-analytical-services.github.io/statisticians-guide/understanding-users/user-eng.html</loc>
+    <lastmod>2023-07-02T00:19:27.090Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/examples.html</loc>
-    <lastmod>2023-07-02T00:01:54.661Z</lastmod>
+    <lastmod>2023-07-02T00:19:28.154Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/pub.html</loc>
-    <lastmod>2023-07-02T00:01:58.277Z</lastmod>
+    <lastmod>2023-07-02T00:19:30.874Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/embedded-charts.html</loc>
-    <lastmod>2023-07-02T00:02:02.166Z</lastmod>
+    <lastmod>2023-07-02T00:19:33.778Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/publishing-statistics/accessibilit-ees.html</loc>
-    <lastmod>2023-07-02T00:02:03.346Z</lastmod>
+    <lastmod>2023-07-02T00:19:34.694Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/RAP/rap-support.html</loc>
-    <lastmod>2023-07-02T00:02:04.678Z</lastmod>
+    <lastmod>2023-07-02T00:19:35.666Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/RAP/rap-statistics.html</loc>
-    <lastmod>2023-07-02T00:02:11.358Z</lastmod>
+    <lastmod>2023-07-02T00:19:40.746Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/learning-development/sql.html</loc>
-    <lastmod>2023-07-02T00:02:12.646Z</lastmod>
+    <lastmod>2023-07-02T00:19:41.730Z</lastmod>
   </url>
   <url>
     <loc>https://dfe-analytical-services.github.io/statisticians-guide/learning-development/git.html</loc>
-    <lastmod>2023-07-02T00:02:14.462Z</lastmod>
+    <lastmod>2023-07-02T00:19:43.142Z</lastmod>
   </url>
 </urlset>
