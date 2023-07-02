@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="statistics.development@education.gov.uk">
-<meta name="dcterms.date" content="2023-07-02">
 
-<title>Statistician’s Guide</title>
+<title>Statistician's Guide – code_of_conduct</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./learning-development/learning-support.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -85,7 +82,7 @@ gtag('config', 'G-KBJCBD114T', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Welcome</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -177,7 +174,7 @@ gtag('config', 'G-KBJCBD114T', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
@@ -354,136 +351,102 @@ gtag('config', 'G-KBJCBD114T', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-and-development" id="toc-learning-and-development" class="nav-link active" data-scroll-target="#learning-and-development">Learning and development</a></li>
-  <li><a href="#creating-statistics" id="toc-creating-statistics" class="nav-link" data-scroll-target="#creating-statistics">Creating statistics</a></li>
-  <li><a href="#publishing-statistics" id="toc-publishing-statistics" class="nav-link" data-scroll-target="#publishing-statistics">Publishing statistics</a></li>
-  <li><a href="#understanding-users" id="toc-understanding-users" class="nav-link" data-scroll-target="#understanding-users">Understanding users</a></li>
-  <li><a href="#reproducible-analytical-pipelines-rap" id="toc-reproducible-analytical-pipelines-rap" class="nav-link" data-scroll-target="#reproducible-analytical-pipelines-rap">Reproducible Analytical Pipelines (RAP)</a></li>
-  <li><a href="#our-resources" id="toc-our-resources" class="nav-link" data-scroll-target="#our-resources">Our resources</a>
+  <li><a href="#contributor-covenant-code-of-conduct" id="toc-contributor-covenant-code-of-conduct" class="nav-link active" data-scroll-target="#contributor-covenant-code-of-conduct">Contributor Covenant Code of Conduct</a>
   <ul class="collapse">
-  <li><a href="#ees-data-screening-app" id="toc-ees-data-screening-app" class="nav-link" data-scroll-target="#ees-data-screening-app">EES data screening app</a></li>
-  <li><a href="#ees-analytics" id="toc-ees-analytics" class="nav-link" data-scroll-target="#ees-analytics">EES analytics</a></li>
-  <li><a href="#publication-rap-self-assessment-tool" id="toc-publication-rap-self-assessment-tool" class="nav-link" data-scroll-target="#publication-rap-self-assessment-tool">Publication RAP self-assessment tool</a></li>
-  <li><a href="#template-code" id="toc-template-code" class="nav-link" data-scroll-target="#template-code">Template code</a></li>
+  <li><a href="#our-pledge" id="toc-our-pledge" class="nav-link" data-scroll-target="#our-pledge">Our Pledge</a></li>
+  <li><a href="#our-standards" id="toc-our-standards" class="nav-link" data-scroll-target="#our-standards">Our Standards</a></li>
+  <li><a href="#enforcement-responsibilities" id="toc-enforcement-responsibilities" class="nav-link" data-scroll-target="#enforcement-responsibilities">Enforcement Responsibilities</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#enforcement" id="toc-enforcement" class="nav-link" data-scroll-target="#enforcement">Enforcement</a></li>
+  <li><a href="#enforcement-guidelines" id="toc-enforcement-guidelines" class="nav-link" data-scroll-target="#enforcement-guidelines">Enforcement Guidelines</a>
+  <ul class="collapse">
+  <li><a href="#correction" id="toc-correction" class="nav-link" data-scroll-target="#correction">1. Correction</a></li>
+  <li><a href="#warning" id="toc-warning" class="nav-link" data-scroll-target="#warning">2. Warning</a></li>
+  <li><a href="#temporary-ban" id="toc-temporary-ban" class="nav-link" data-scroll-target="#temporary-ban">3. Temporary Ban</a></li>
+  <li><a href="#permanent-ban" id="toc-permanent-ban" class="nav-link" data-scroll-target="#permanent-ban">4. Permanent Ban</a></li>
   </ul></li>
-  <li><a href="#our-mailbox" id="toc-our-mailbox" class="nav-link" data-scroll-target="#our-mailbox">Our mailbox</a></li>
+  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">Attribution</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/edit/main/CODE_OF_CONDUCT.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Statistician’s Guide</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>statistics.development@education.gov.uk </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 2, 2023</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
-
-<hr>
-<p>This website is a guide aimed at anyone working in analysis or statistics in the Department for Education (DfE). It details best practice and learning resources across a number of areas listed out on this page.</p>
-<p>If viewed in its entirety, it provides a walk-through guide for statisticians from processing to publication, as well as being a single reference point that is easy to navigate if you just need to check on a specific part of the process, link off to other resources, or access specific guidance.</p>
-<p>There is already a wealth of resources out there, and therefore this site unashamedly aims to pool the relevant resources into one place. There are some things that this site does not yet have, it will develop and change over time.</p>
-<p>We hope it can prove a useful resource for everyone from the most experienced right through to those just starting out. If you have any feedback, suggested additions, or wish to challenge any of the guidance, please contact us using the envelope button in the top right corner.</p>
-<section id="learning-and-development" class="level2">
-<h2 class="anchored" data-anchor-id="learning-and-development">Learning and development</h2>
-<p><a href="learning-development/learning-development.html">General resources</a> - Useful learning resources, and support to get you started</p>
-<p><a href="learning-development/sql.html">SQL</a> - Guidance and tips for accessing data via databases with SQL</p>
-<p><a href="learning-development/r.html">R</a> - Guidance and tips for using the programming language R</p>
-<p><a href="learning-development/git.html">Git</a> - Guidance and tips for version control with Git</p>
+<section id="contributor-covenant-code-of-conduct" class="level1">
+<h1>Contributor Covenant Code of Conduct</h1>
+<section id="our-pledge" class="level2">
+<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
+<p>We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.</p>
+<p>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</p>
 </section>
-<section id="creating-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="creating-statistics">Creating statistics</h2>
-<p><a href="creating-statistics/ud.html">Open data standards</a> - Guidance on how to structure data files</p>
-<p><a href="creating-statistics/cd.html">Writing and visualising</a> - Things to consider when writing statistical commentary</p>
-</section>
-<section id="publishing-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-statistics">Publishing statistics</h2>
-<p><a href="publishing-statistics/pub.html">How to publish</a> - Guidance for how to publish different types of statistics</p>
-<p><a href="publishing-statistics/dashboards.html">Public dashboards</a> - Guidance for publishing official statistics dashboards</p>
-<p><a href="publishing-statistics/ees.html">Using EES</a> - How to use the features in Explore Education Statistics</p>
-<p><a href="publishing-statistics/examples.html">Good examples in EES</a> - Examples of good practice in Explore Eduaction Statistics</p>
-<p><a href="publishing-statistics/embedded-charts.html">Embedded visualisations in EES</a> - How to embed R-Shiny charts in EES publications</p>
-</section>
-<section id="understanding-users" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-users">Understanding users</h2>
-<p><a href="understanding-users/user-eng.html">User engagement</a> - Guidance on understanding and engaging with the users of published statistics</p>
-<p><a href="understanding-users/user_analytics.html">EES analytics</a> - Understanding how users are interacting with your publications</p>
-</section>
-<section id="reproducible-analytical-pipelines-rap" class="level2">
-<h2 class="anchored" data-anchor-id="reproducible-analytical-pipelines-rap">Reproducible Analytical Pipelines (RAP)</h2>
-<p><a href="RAP/rap-expectations.html">RAP expectations</a> - Guidance for all analysts on expectations of RAP</p>
-<p><a href="RAP/rap-managers.html">RAP support</a> - Details on support available for RAP in DfE</p>
-<p><a href="RAP/rap-faq.html">RAP FAQs</a> - Frequently asked questions about RAP</p>
-<p><a href="RAP/rap-statistics.html">RAP in statistics</a> - Detailed RAP guidance for statistics publications</p>
-</section>
-<section id="our-resources" class="level2">
-<h2 class="anchored" data-anchor-id="our-resources">Our resources</h2>
-<p>We also have a number of other applications for statistics production teams to use to help them in their processes, they can be accessed at the links below when using a DfE device.</p>
-<section id="ees-data-screening-app" class="level3">
-<h3 class="anchored" data-anchor-id="ees-data-screening-app">EES data screening app</h3>
-<p>This application allows you to screen your data files against the underlying data standards for Official and National statistical publications. If your file passes the checks it also gives you some basic options for exploring the data in the file.</p>
+<section id="our-standards" class="level2">
+<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
+<p>Examples of behavior that contributes to a positive environment for our community include:</p>
 <ul>
-<li><p><a href="https://rsconnect/rsc/dfe-published-data-qa/" target="_blank" rel="noopener noreferrer">EES data screener</a></p></li>
-<li><p><a href="https://github.com/dfe-analytical-services/dfe-published-data-qa" target="_blank" rel="noopener noreferrer">Data screener code on GitHub</a></p></li>
+<li>Demonstrating empathy and kindness toward other people</li>
+<li>Being respectful of differing opinions, viewpoints, and experiences</li>
+<li>Giving and gracefully accepting constructive feedback</li>
+<li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+<li>Focusing on what is best not just for us as individuals, but for the overall community</li>
+</ul>
+<p>Examples of unacceptable behavior include:</p>
+<ul>
+<li>The use of sexualized language or imagery, and sexual attention or advances of any kind</li>
+<li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+<li>Public or private harassment</li>
+<li>Publishing others’ private information, such as a physical or email address, without their explicit permission</li>
+<li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
 </ul>
 </section>
-<section id="ees-analytics" class="level3">
-<h3 class="anchored" data-anchor-id="ees-analytics">EES analytics</h3>
-<p>There is an R Shiny dashboard that provides access to the Google Analytics data for the Explore Education Statistics platform.</p>
-<ul>
-<li><p><a href="https://rsconnect/rsc/ees-analytics/" target="_blank" rel="noopener noreferrer">Explore Education Statistics analytics dashboard</a></p></li>
-<li><p>Code is not yet publicly available, it is stored in Azure DevOps, contact us if you are interested in seeing it or contributing.</p></li>
-</ul>
+<section id="enforcement-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="enforcement-responsibilities">Enforcement Responsibilities</h2>
+<p>Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
+<p>Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.</p>
 </section>
-<section id="publication-rap-self-assessment-tool" class="level3">
-<h3 class="anchored" data-anchor-id="publication-rap-self-assessment-tool">Publication RAP self-assessment tool</h3>
-<p>A self assessment tool allowing official statistics publications to understand how their production processes match up against RAP expectations.</p>
-<ul>
-<li><p><a href="https://rsconnect/rsc/publication-self-assessment/" target="_blank" rel="noopener noreferrer">RAP self-assessment tool</a></p></li>
-<li><p><a href="https://github.com/dfe-analytical-services/publication-self-assessment-copy" target="_blank" rel="noopener noreferrer">RAP self-assessment code mirrored on GitHub</a></p></li>
-</ul>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<p>This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.</p>
 </section>
-<section id="template-code" class="level3">
-<h3 class="anchored" data-anchor-id="template-code">Template code</h3>
-<ul>
-<li><p><a href="https://github.com/dfe-analytical-services/shiny-template" target="_blank" rel="noopener noreferrer">Template DfE R Shiny dashboard</a></p></li>
-<li><p><a href="https://github.com/dfe-analytical-services/automated-data-qa" target="_blank" rel="noopener noreferrer">Template QA code repository</a></p></li>
-<li><p><a href="https://github.com/dfe-analytical-services/dfeR" target="_blank" rel="noopener noreferrer">dfeR R package</a></p></li>
-</ul>
+<section id="enforcement" class="level2">
+<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at statistics.development@education.gov.uk. All complaints will be reviewed and investigated promptly and fairly.</p>
+<p>All community leaders are obligated to respect the privacy and security of the reporter of any incident.</p>
+</section>
+<section id="enforcement-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="enforcement-guidelines">Enforcement Guidelines</h2>
+<p>Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:</p>
+<section id="correction" class="level3">
+<h3 class="anchored" data-anchor-id="correction">1. Correction</h3>
+<p><strong>Community Impact</strong>: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.</p>
+<p><strong>Consequence</strong>: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.</p>
+</section>
+<section id="warning" class="level3">
+<h3 class="anchored" data-anchor-id="warning">2. Warning</h3>
+<p><strong>Community Impact</strong>: A violation through a single incident or series of actions.</p>
+<p><strong>Consequence</strong>: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.</p>
+</section>
+<section id="temporary-ban" class="level3">
+<h3 class="anchored" data-anchor-id="temporary-ban">3. Temporary Ban</h3>
+<p><strong>Community Impact</strong>: A serious violation of community standards, including sustained inappropriate behavior.</p>
+<p><strong>Consequence</strong>: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.</p>
+</section>
+<section id="permanent-ban" class="level3">
+<h3 class="anchored" data-anchor-id="permanent-ban">4. Permanent Ban</h3>
+<p><strong>Community Impact</strong>: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.</p>
+<p><strong>Consequence</strong>: A permanent ban from any sort of public interaction within the community.</p>
 </section>
 </section>
-<section id="our-mailbox" class="level2">
-<h2 class="anchored" data-anchor-id="our-mailbox">Our mailbox</h2>
-<p>Our mailbox is always monitored and is available for anyone in DfE to ask questions about analysis, whether that is about RAP, building dashboards, coding support, learning and development or statistics publications.</p>
-<ul>
-<li><a href="mailto:statistics.development@education.gov.uk">statistics.development@education.gov.uk</a></li>
-<li>9am-5pm, Monday-Friday, aim to reply within 1-2 days</li>
-</ul>
+<section id="attribution" class="level2">
+<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
+<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org">Contributor Covenant</a>, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.</p>
+<p>Community Impact Guidelines were inspired by <a href="https://github.com/mozilla/diversity">Mozilla’s code of conduct enforcement ladder</a>.</p>
+<p>For answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -835,15 +798,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./learning-development/learning-support.html" class="pagination-link">
-        <span class="nav-page-text">Learning support</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
