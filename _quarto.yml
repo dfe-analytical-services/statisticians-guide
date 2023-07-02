@@ -10,7 +10,9 @@ website:
   repo-url: https://github.com/dfe-analytical-services/statisticians-guide
   repo-actions: [edit, issue]
   google-analytics: "G-KBJCBD114T"
-  cookie-consent: false
+  cookie-consent: 
+    style: headline
+    palette: dark
 
   page-footer:
     right: "This page is maintained by statistics.development@education.gov.uk"
