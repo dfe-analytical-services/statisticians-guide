@@ -127,8 +127,8 @@ website:
 format:
   html:
     theme:
-      light: slate
-      dark: united
+      light: [slate, www/slate_custom.scss]
+      dark: [united, www/united_custom.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
