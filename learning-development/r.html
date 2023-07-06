@@ -403,6 +403,7 @@ cookieconsent.run({
   <li><a href="#automatic-logging" id="toc-automatic-logging" class="nav-link" data-scroll-target="#automatic-logging">Automatic logging</a></li>
   <li><a href="#running-sql-scripts-from-r" id="toc-running-sql-scripts-from-r" class="nav-link" data-scroll-target="#running-sql-scripts-from-r">Running SQL scripts from R</a></li>
   <li><a href="#cant-find-make-error" id="toc-cant-find-make-error" class="nav-link" data-scroll-target="#cant-find-make-error">Can’t find make error</a></li>
+  <li><a href="#packages-not-downloading-due-to-wininet-error-renv-0.17" id="toc-packages-not-downloading-due-to-wininet-error-renv-0.17" class="nav-link" data-scroll-target="#packages-not-downloading-due-to-wininet-error-renv-0.17">Packages not downloading due to “wininet” error (renv 0.17)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/edit/main/learning-development/r.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dfe-analytical-services/statisticians-guide/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -929,6 +930,14 @@ SET NOCOUNT ON;</code></pre>
 <p>The solution takes a few minutes, but is relatively straightforward, you can <a href="https://cran.r-project.org/bin/windows/Rtools/" target="_blank">install Rtools as a direct download from CRAN</a>. On there, pick the right version of RTools for your version of R, download the file and install.</p>
 <p>Set the install location to your c drive, for example, if installing for R4.2.2, install RTools42 to <code>C:\rtools42</code> (this is the default location).</p>
 <p>Once it’s installed close and reopen RStudio and run <code>renv::restore()</code> again - it should hopefully now restore and install your packages successfully!</p>
+<hr>
+</section>
+<section id="packages-not-downloading-due-to-wininet-error-renv-0.17" class="level3">
+<h3 class="anchored" data-anchor-id="packages-not-downloading-due-to-wininet-error-renv-0.17">Packages not downloading due to “wininet” error (renv 0.17)</h3>
+<hr>
+<p>Packages are generally downloaded from CRAN using one of two methods: wininet or curl. Since renv version 0.17, analysts potentially hit an error associated with renv defaulting to wininet, whilst R defaults to curl, causing package downloads to fail. To fix this issue, analysts should change their default download method with renv to be curl. This can be done across all R-projects on your machine, by setting the default in your global R environment file. To do this, open up a bash terminal and enter the following command:</p>
+<p><code>echo 'RENV_DOWNLOAD_METHOD = "curl")' &gt;&gt; ~/.Renviron</code></p>
+<p>Then restart R-Studio and downloads with renv should now succeed.</p>
 <hr>
 
 
