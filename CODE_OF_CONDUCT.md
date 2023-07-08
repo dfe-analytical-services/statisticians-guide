@@ -1,4 +1,12 @@
-# Contributor Covenant Code of Conduct
+# Contributor Code of Conduct
+
+Contributors to repositories hosted in DfE Analytical Services are expected to
+follow the Contributor Covenant Code of Conduct, and those working within
+Government are also expected to follow the Civil Service Code.
+
+## Civil Service Code
+
+- The [Civil Service Code](https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code).
 
 ## Our Pledge
 
