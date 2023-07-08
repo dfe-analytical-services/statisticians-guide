@@ -58,10 +58,10 @@ PRA - https://app.diagrams.net/#G1x1VLZghqCCnmDWHqgjpdU6fSSehms4FL
 
 ## Contribution
 
-If you're interested in contributing to this project, get in touch with us and we can arrange access to the source repository in GitHub.
+If you're interested in contributing to this project, have a look at our [contributing guidance](https://github.com/dfe-analytical-services/statisticians-guide/blob/main/CONTRIBUTING.md).
 
 ---
 
 ## Contact
 
-statistics.development@education.gov.uk.
+If you have any questions or need help contributing, please contact [statistics.development@education.gov.uk](mailto:statistics.development@education.gov.uk).
