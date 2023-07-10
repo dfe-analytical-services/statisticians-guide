@@ -554,6 +554,7 @@ This only sets it temporarily for as long as the R session is running, you'll ne
 > Sys.setenv(PATH = paste(old_path, "C:\\rtools40\\usr\\bin", sep = ";"))
 > Sys.getenv("PATH")
 
+
 ---
 
 ### Packages not downloading due to "wininet" error (renv 0.17)
