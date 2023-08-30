@@ -713,6 +713,12 @@ You can use the page view toggles, that float in the bottom left of the page, to
 
 <!-- we should gif -->
 
+Add any headline and/or key stats and figures for your release in the headline facts and figures section.
+
+You can then create accordion sections to start adding your main release commentary. These sections are made up of text blocks and data blocks which can be reordered as needed.
+
+### Headline facts and figures
+
 Use the ‘Add secondary stats’ button to add a data block to your headline stats section.
 
 Use the 'Key stats' options to add key statistic tiles to your release. For each tile you first have to have created a data block that contains only one number.
@@ -729,7 +735,6 @@ After embedding a key stat tile you can then edit it to add trend information an
 | Guidance title | E.g. 'What is NEET?' or 'What are permanent exclusions?' |
 | Guidance text | A simple description in plain English of what the indicator is |
 
-You can then create accordion sections to start adding your main release commentary. These sections are made up of text blocks and data blocks which can be reordered as needed.
 
 ---
 
