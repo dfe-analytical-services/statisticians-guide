@@ -168,21 +168,19 @@ Below is a session by Robert Cuffe from the BBC talking to DfE statisticians abo
 
 ---
 
-## Headline statistics
+## Headline sections
 
 
-Each release on the platform will have a summary box at the top that contains the top facts and headlines for your release - you should consider this the equivalent of the front page of what was the PDF version of your release.
-
-Use bullet points under the key indicator tiles to pull out the top headlines from your release. Here are some top tips for writing headlines:
+It is common to use bullet points to draw out key headline messages, either for policy lines or for general interest. Here are some top tips for writing headlines:
 
 * Ask yourself if this is the most important, useful and relevant point to make? Why? What is new?
-* We recommend a maximum of six top headlines, aiming for four or five
+* We recommend a maximum of six top headlines
 * You shouldn't be trying to summarise all the findings in the publication
-* Headlines won't necessarily be the same every year
+* For regular publications, headlines won't necessarily be the same every time
 * Headlines should be a single sentence making a single point, and be able to stand alone from the publication
 * Headlines should make sense to everyone and anyone (no jargon)
 * Structure headlines as: what has happened; why is this important - don't give numbers without context
-* One of your headlines should put the latest figures in the context of the longer-term change
+* At least of your headlines should put the latest figures in the context of the longer-term change
 * Round figures in headlines, you don't need lots of decimal places
 * If there is essential context for the headline facts then put this here
 
