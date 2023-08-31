@@ -395,7 +395,10 @@ cookieconsent.run({
   </ul></li>
   <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a>
   <ul class="collapse">
+  <li><a href="#headline-facts-and-figures" id="toc-headline-facts-and-figures" class="nav-link" data-scroll-target="#headline-facts-and-figures">Headline facts and figures</a></li>
   <li><a href="#drafting-text" id="toc-drafting-text" class="nav-link" data-scroll-target="#drafting-text">Drafting text</a></li>
+  <li><a href="#footnotes-1" id="toc-footnotes-1" class="nav-link" data-scroll-target="#footnotes-1">Footnotes</a></li>
+  <li><a href="#reviewing-content" id="toc-reviewing-content" class="nav-link" data-scroll-target="#reviewing-content">Reviewing content</a></li>
   </ul></li>
   <li><a href="#embedding-r-shiny-blocks" id="toc-embedding-r-shiny-blocks" class="nav-link" data-scroll-target="#embedding-r-shiny-blocks">Embedding R-Shiny blocks</a></li>
   <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary">Glossary</a>
@@ -762,6 +765,7 @@ Guidance for how to use the features in the Explore Education Statistics platfor
 </section>
 <section id="footnotes" class="level2">
 <h2 class="anchored" data-anchor-id="footnotes">Footnotes</h2>
+<p>We generally advise against using footnotes, unless they’re absolutely necessary (think about how many people will actually be reading them!). Consider where you could signpost to the methodology /data guidance / commentary instead. However, if you do want to add footnotes to your data, this should be done using the EES footnote function.</p>
 <p>Footnotes are added via footnotes tab - rather than writing multiple tables and assigning individual footnotes, you write footnotes and assign them to certain indicators and filters so they appear when users select them in the table builder. For example in the below, the footnote “This is a footnote” is assigned to “Headcount” indicator for all options within the “School type” filter.</p>
 <p><img src="../images/footnote_example.PNG" class="img-fluid"></p>
 <p>If you’d rather, you can assign a footnote to the whole data file by ticking this box.</p>
@@ -1070,6 +1074,10 @@ ggplot(data, aes(x=time_period, y=indicator1,  fill=Filter )) +
 <!-- we should gif -->
 <p>You can use the page view toggles, that float in the bottom left of the page, to jump between edit and preview mode for the release and to view a preview of the table tool.</p>
 <!-- we should gif -->
+<p>Add any headline and/or key stats and figures for your release in the headline facts and figures section.</p>
+<p>You can then create accordion sections to start adding your main release commentary. These sections are made up of text blocks and data blocks which can be reordered as needed.</p>
+<section id="headline-facts-and-figures" class="level3">
+<h3 class="anchored" data-anchor-id="headline-facts-and-figures">Headline facts and figures</h3>
 <p>Use the ‘Add secondary stats’ button to add a data block to your headline stats section.</p>
 <p>Use the ‘Key stats’ options to add key statistic tiles to your release. For each tile you first have to have created a data block that contains only one number.</p>
 <p><img src="../images/key-stat.PNG" class="img-fluid"></p>
@@ -1108,18 +1116,65 @@ ggplot(data, aes(x=time_period, y=indicator1,  fill=Filter )) +
 </tr>
 </tbody>
 </table>
-<p>You can then create accordion sections to start adding your main release commentary. These sections are made up of text blocks and data blocks which can be reordered as needed.</p>
 <hr>
+</section>
 <section id="drafting-text" class="level3">
 <h3 class="anchored" data-anchor-id="drafting-text">Drafting text</h3>
 <hr>
-<div class="alert alert-dismissible alert-info">
+<section id="about-these-statistics" class="level4">
+<h4 class="anchored" data-anchor-id="about-these-statistics">About these statistics</h4>
+<hr>
+<p>We recommend that the first accordion section in each release should be ‘About these statistics’. Do not assume that users will read it, the nature of interactive pages means that the reader may start at any accordion section so remember to include essential information in the section to which it refers.</p>
+<p>Avoid filling this section with:</p>
+<ul>
+<li>Crucial caveats or information necessary for accurate interpretation of the statistics, these should be included within the main commentary next to the point they relate to</li>
+<li>Technical information that is not relevant to the interpretation of the statistics should be saved for the methodology</li>
+<li>Definitions should be included within the main commentary when they are first mentioned</li>
+<li>Lists or descriptions of what is in the commentary as these should be clear from the contents and accordion headings</li>
+</ul>
+<p>Try to focus the ‘About these statistics’ section on:</p>
+<ul>
+<li>Say why the data are collected and what they are used for or could be used for, including relevant policies and targets</li>
+<li>The different geographical levels for which data is published</li>
+<li>Non-essential but important information about the statistics, such as:
+<ul>
+<li>The data collection window, mode of data collection and response rates in terms of whether these are representative</li>
+<li>Clarification of the population coverage</li>
+<li>Changes in data collection or analysis methods from previous releases</li>
+</ul></li>
+<li>Links to relevant related statistics including the cause of any differences</li>
+<li>Further useful detail on specific measures used in the release</li>
+<li>Non-urgent notices to users such as minor error corrections and delays or changes to the next publication. If there is something important which you want all users to know about then give it its own accordion section.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="footnotes-1" class="level3">
+<h3 class="anchored" data-anchor-id="footnotes-1">Footnotes</h3>
+<hr>
+<div class="alert alert-dismissible alert-danger">
 <p>Do not use footnotes in the text of your content. They’re designed for reference in print, not web pages. If the information in the footnotes is important, include it in the body text. If it’s not, leave it out.</p>
 </div>
+<hr>
+<section id="tables-in-content" class="level4">
+<h4 class="anchored" data-anchor-id="tables-in-content">Tables in content</h4>
+<hr>
 <p>Any data tables should be included as data blocks, however you can also embed static html tables within a text box. These should only be used to present textual tables or for any small presentations of data that are not possible to do in a data block at the moment.</p>
 
 <!-- gif adding in a html table -->
 <p>You can create static html tables for presenting information that isn’t embedded in a data block. However, remember that <em>all of the data</em> included or referred to in your content should be available (or createable) from the downloadable open data files.</p>
+<hr>
+</section>
+<section id="footnotes-for-tables-in-content" class="level4">
+<h4 class="anchored" data-anchor-id="footnotes-for-tables-in-content">Footnotes for tables in content</h4>
+<hr>
+<p>If you are including a table in text that needs footnotes, it’s generally advised to include this in the commentary surrounding the table. However, if you think a footnote is still necessary, then we advise writing out the word ‘note’, with the number of the note you need to refer to, and put it in square brackets, for example: ‘Number of people in employment [note 1]’. For more guidance on footnotes outside of EES, see the <a href="https://analysisfunction.civilservice.gov.uk/policy-store/releasing-statistics-in-spreadsheets/#section-6" target="_blank">Analysis Function guidance on symbols, footnotes and codes</a>.</p>
+<hr>
+</section>
+</section>
+<section id="reviewing-content" class="level3">
+<h3 class="anchored" data-anchor-id="reviewing-content">Reviewing content</h3>
+<hr>
 <p>While a release is in draft mode, comments can be added to text to help teams collaborate. Simply highlight the text you want to comment on and click on the speech bubble in the editing bar to add a comment.</p>
 <p><img src="../images/comment.png" class="img-fluid"></p>
 <p>Comments can be edited at a later date, and can also be marked as resolved so that you can see which comments have been addressed and which are still outstanding.</p>
