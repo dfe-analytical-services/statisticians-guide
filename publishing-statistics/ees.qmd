@@ -394,7 +394,7 @@ Remember to double check any data blocks or footnotes that were recreated by the
 
 ## Footnotes
 
-We generally advise against using footnotes, unless they're absolutely necessary (think about how many people will actually be reading them!). Consider where you could signpost to the methodology/data guidance/commentary instead. However, if you do want to add footnotes to your data, this should be done using the EES footnote function. 
+We generally advise against using footnotes, unless they're absolutely necessary (think about how many people will actually be reading them!). Consider where you could signpost to the methodology /data guidance / commentary instead. However, if you do want to add footnotes to your data, this should be done using the EES footnote function. 
 
 Footnotes are added via footnotes tab - rather than writing multiple tables and assigning individual footnotes, you write footnotes and assign them to certain indicators and filters so they appear when users select them in the table builder. For example in the below, the footnote "This is a footnote" is assigned to "Headcount" indicator for all options within the "School type" filter.
 
@@ -742,17 +742,65 @@ After embedding a key stat tile you can then edit it to add trend information an
 
 ---
 
-<div class="alert alert-dismissible alert-info">
+#### About these statistics
+
+---
+
+We recommend that the first accordion section in each release should be 'About these statistics'. Do not assume that users will read it, the nature of interactive pages means that the reader may start at any accordion section so remember to include essential information in the section to which it refers.
+
+Avoid filling this section with:
+
+* Crucial caveats or information necessary for accurate interpretation of the statistics, these should be included within the main commentary next to the point they relate to
+* Technical information that is not relevant to the interpretation of the statistics should be saved for the methodology
+* Definitions should be included within the main commentary when they are first mentioned
+* Lists or descriptions of what is in the commentary as these should be clear from the contents and accordion headings
+
+Try to focus the 'About these statistics' section on:
+
+* Say why the data are collected and what they are used for or could be used for, including relevant policies and targets
+* The different geographical levels for which data is published
+* Non-essential but important information about the statistics, such as:
+   + The data collection window, mode of data collection and response rates in terms of whether these are representative
+   + Clarification of the population coverage
+   + Changes in data collection or analysis methods from previous releases
+* Links to relevant related statistics including the cause of any differences
+* Further useful detail on specific measures used in the release
+* Non-urgent notices to users such as minor error corrections and delays or changes to the next publication. If there is something important which you want all users to know about then give it its own accordion section.
+
+---
+
+### Footnotes
+
+---
+
+<div class="alert alert-dismissible alert-danger">
 Do not use footnotes in the text of your content. They’re designed for reference in print, not web pages. If the information in the footnotes is important, include it in the body text. If it’s not, leave it out.
 </div>
 
-Footnotes for tables in content
-If you are including a table in text that needs footnotes, it's generally advised to include this in the commentary surrounding the table. However, if you think a footnote is still necessary, then we advise writing out the word ‘note’, with the number of the note you need to refer to, and put it in square brackets, for example: ‘Number of people in employment [note 1]’. For more guidance on footnotes outside of EES, see the [Analysis Function guidance on symbols, footnotes and codes](https://analysisfunction.civilservice.gov.uk/policy-store/releasing-statistics-in-spreadsheets/#section-6).
+---
+
+#### Tables in content
+
+----
 
 Any data tables should be included as data blocks, however you can also embed static html tables within a text box. These should only be used to present textual tables or for any small presentations of data that are not possible to do in a data block at the moment.
 
 <!-- gif adding in a html table -->
 You can create static html tables for presenting information that isn't embedded in a data block. However, remember that *all of the data* included or referred to in your content should be available (or createable) from the downloadable open data files.
+
+----
+
+#### Footnotes for tables in content
+
+----
+
+If you are including a table in text that needs footnotes, it's generally advised to include this in the commentary surrounding the table. However, if you think a footnote is still necessary, then we advise writing out the word ‘note’, with the number of the note you need to refer to, and put it in square brackets, for example: ‘Number of people in employment [note 1]’. For more guidance on footnotes outside of EES, see the [Analysis Function guidance on symbols, footnotes and codes](https://analysisfunction.civilservice.gov.uk/policy-store/releasing-statistics-in-spreadsheets/#section-6).
+
+---
+
+### Reviewing content
+
+----
 
 While a release is in draft mode, comments can be added to text to help teams collaborate. Simply highlight the text you want to comment on and click on the speech bubble in the editing bar to add a comment.
 
