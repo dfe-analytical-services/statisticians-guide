@@ -82,6 +82,11 @@ We hope it can prove a useful resource for everyone from the most experienced ri
 [RAP in statistics](RAP/rap-statistics.html)
 - Detailed RAP guidance for statistics publications
 
+## Analytical Data Access (ADA) & Databricks
+
+[Using ADA and Databricks](ADA-databricks/ADA-databricks.html)
+- Guidance on using ADA and databricks
+
 ## Our resources
 
 

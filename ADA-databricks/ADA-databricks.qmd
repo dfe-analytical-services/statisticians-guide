@@ -1,0 +1,34 @@
+---
+title: "ADA and databricks"
+---
+
+```{r include=FALSE}
+require(knitr)
+```
+
+<p class="text-muted">Guidance for analysts on how to interact with and use data stored in ADA using databricks</p>
+
+---
+
+# What is ADA?
+
+---
+
+What is ADA?....
+
+---
+
+# What is Databricks?
+
+---
+
+What is databricks....
+
+---
+
+# FAQs?
+
+---
+
+* Question 1?
+* Question 2?
