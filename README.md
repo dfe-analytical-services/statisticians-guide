@@ -1,5 +1,13 @@
 [![Publish to pages](https://github.com/dfe-analytical-services/statisticians-guide/actions/workflows/publish.yml/badge.svg)](https://github.com/dfe-analytical-services/statisticians-guide/actions/workflows/publish.yml)
 
+
+# **IMPORTANT - THIS PROJECT IS NOW NO LONGER ACTIVELY MAINTAINED.**
+
+# **Have a look at our [Analysts' guide](https://github.com/dfe-analytical-services/analysts-guide) instead.**
+
+---
+
+
 # Statistician's Guide
 
 ## Introduction
